@@ -54,7 +54,7 @@ body {
   padding: 30px;
   background-color: #9486E0;
   animation-name: divide;
-  position: relative;
+  position: sticky;
   position: center;
   animation-duration: 5s;
   animation-iteration-count: 2;
