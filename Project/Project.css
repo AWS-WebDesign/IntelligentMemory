@@ -1,42 +1,35 @@
 body {
-
   margin: 10px;
   padding: 10px;
   text-align: center;
-
-  /*background possibilities*/
-  /* background-image: */
   background-color: #F1F1DC;
-  /* background-position: */
-  /* background-repeat: */
-
-  /* font possibilities */
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 4px;
   text-transform: uppercase;
-  /* font-stretch: */
-  /* font-variant: */
+  font-size-adjust: auto;
+  font-stretch: extra-expanded;
 }
-
 
     .homepage {
       height: 100px;
-      width: 300px;
+      width: 35%;
       display: block;
       margin: 70px;
-      padding: 30px;
-      background-color: #9486E0;
+      padding: 15px;
+      font-style: normal;
+      background-color: #F4B394;
       position: relative;
       position: center;
       animation-name: homepage;
-      animation-duration: 5s;
-      animation-iteration-count: 2;
+      animation-duration: 8s;
+      animation-iteration-count: 1;
       animation-timing-function: linear;
-      animation-delay: 3s;
+      animation-delay: s;
+      font-family: monospace;
+      float: left;
     }
-
 
   @keyframes homepage {
     0% {left: 125px; top: 0px;}
@@ -48,24 +41,27 @@ body {
 
 .divide {
   height: 100px;
-  width: 300px;
+  width: 35%;
   display: block;
   margin: 70px;
-  padding: 30px;
-  background-color: #9486E0;
+  padding: 15px;
+  background-color: #F4B394;
   animation-name: divide;
+  font-style: normal;
   position: sticky;
   position: center;
-  animation-duration: 5s;
-  animation-iteration-count: 2;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
-  animation-delay: 3s;
+  animation-delay: s;
+  font-family: serif;
+  float: right;
 }
 
 @keyframes divide {
-  0% {left: 115px; top: 0px;}
-  25% {left: 135px; top: 0px;}
-  50% {left: 175px; top: 0px;}
-  75% {left: 180px; top: 0px;}
-  100% {left: 190px; top: 0px;}
+  0% {Right: 200px; top: 0px;}
+  25% {Right: 180px; top: 0px;}
+  50% {Right: 170px; top: 0px;}
+  75% {Right: 155px; top: 0px;}
+  100% {Right: 130px; top: 0px;}
 }

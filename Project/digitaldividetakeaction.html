@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- This link element links this html file to my css file so that it can
+    use the styles from the css file. -->
+    <link href="digitaldivide.css" type="text/css" rel="stylesheet">
+    <!-- This title element controls the text displayed in the tab on the web browser. -->
+    <title>Take Action</title>
+
+  </head>
+
+
+  <body>
+    <!-- This is the navigation bar which links to other internal links. It
+    contains hover mechanisms, and other basic style features like lato
+    font, uppercase font, and background block color.-->
+    <div class="topnav">
+      <a href="digitaldividehome.html">Home</a>
+      <a href="digitaldividestats.html">Statistics</a>
+      <a href="digitaldividetakeaction.html">Take Action</a>
+      <a href="digitaldividecitations.html">Citations</a>
+    </div>
+
+    <!--line breaks for spacing-->
+    <br><br><br>
+    <!--large, bolded header-->
+    <h1>Take Action</h1><br>
+    <!-- the image element has the image source linked in the source attribute. The image
+    is in the repository, and it is depicting two sides with computers and books on each side and a bridge in between.
+    There are also height and width specifications using the respective attributes.-->
+    <img src="71c6ea8d47a07b984512669ea9c348f7_L.jpg" alt="bridging the gap"height="350" width="800">
+    <br><br>
+    <!--bolded subheader-->
+    <h2>What can be done to bridge the divide?</h2>
+
+    <!-- div class corresponds with .list css style so that the text within it can be
+    aligned to the left of the page-->
+    <div class="list">
+      <!-- unordered list organizes data in bullet points so that facts are easier to read-->
+      <ul>
+        <!--list items are the elements that make up each bullet-->
+        <li>makes access to internet and computers more affordable</li>
+        <li>making broadband access more affordable for low income homes</li>
+            <ul>
+              <li>Lifeline Support: Federal program that provides subsidized phone and Internet services</li>
+            </ul>
+        <li>provide public access through schools, libraries, other community locations</li>
+        <li>increase digital literacy skills</li>
+            <ul>
+              <li>deficiencies across age groups, socio-economic status, culture</li>
+            </ul>
+        <li>focusing particular attention on educators, and ensuring that they have the resources and digital literacy skills they need to teach the next generation</li>
+        <li>Promote innovations geared towards overcoming the digital divide</li>
+      </ul>
+          </div>
+
+    <br><br>
+
+<h2>What do you think?</h2>
+
+  <p>How do you think we should be combatting the digital divide? <br>
+  Type your response here!</p>
+
+<!-- This is a form where the user can enter text about their opinion on how to
+take action against the digital divide. the type attribute specifies that this is
+a text input. the id allows Javascript to identify it.-->
+  <input id="answerbox" type="text" name="answer" value="">
+  <br><br>
+<!--This input is the submit button. The type attribute specifies that this is a
+button. The value attribute displays the text Submit. The onclick attribute commands
+for a function to happen when the button is clicked-->
+  <input type="button" value="Submit" onclick="showInput();">
+</center><br><br>
+
+<!-- This div shows the results of the form. The id lets the JavaScript know where
+to display the response. -->
+  <div id="results">
+    <center><b>Your response: </b>
+      <!--The answer class corresponds to a css style making the background of this div
+      yellow. The response id allows the JavaScript function to know where to insert the
+      answerbox text.-->
+      <p class="answer" id="response"></p>
+      <br>
+  </center>
+  </div>
+
+
+  <script language="JavaScript">
+      // when submit button clicked, this function runs
+      function showInput() {
+          //makes the contents of the element with id of response (the show response div) insert the text that the user enters into the element with the id answerbox (the text input element)
+          document.getElementById('response').innerHTML =
+                      document.getElementById("answerbox").value;
+          var r = document.getElementById('results');
+          r.style.display = "block";
+      }
+      </script>

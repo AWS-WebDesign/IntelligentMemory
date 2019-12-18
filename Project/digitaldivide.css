@@ -1,0 +1,105 @@
+body {
+/* style for whole site*/
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #F1F1DC;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+}
+
+/* style for all lists on the site */
+.list{
+  margin: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: left;
+  background-color: #F1F1DC;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  text-transform: lowercase;
+}
+/* style for the answer typed in on take action page*/
+.answer {
+  background-color: #FEDB61;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* style for homepage */
+.homepage {
+  height: 100px;
+  width: 35%;
+  display: block;
+  margin: 70px;
+  padding: 15px;
+  font-style: normal;
+  background-color: #F4B394;
+  position: relative;
+  position: center;
+  animation-name: homepage;
+  animation-duration: 8s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: s;
+  font-family: sans-serif;
+  float: left;
+}
+/* Animation for homepage */
+@keyframes homepage {
+  0% {left: 125px; top: 0px;}
+  50% {left: 50px; top: 0px;}
+  75% {left: 25px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+}
+/* style for divide */
+  .divide {
+    height: 100px;
+    width: 35%;
+    display: block;
+    margin: 70px;
+    padding: 15px;
+    background-color: #F4B394;
+    animation-name: divide;
+    font-style: normal;
+    position: sticky;
+    position: center;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: s;
+    font-family: sans-serif;
+    float: right;
+}
+/* Animation for divide */
+@keyframes divide {
+  0% {Right: 200px; top: 0px;}
+  25% {Right: 180px; top: 0px;}
+  50% {Right: 170px; top: 0px;}
+  75% {Right: 155px; top: 0px;}
+  100% {Right: 130px; top: 0px;}
+}
+
+  /* This is the div class for the navigation bar text in all of the pages. It is white. */
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      background-color: #FEDB61;
+
+    }
+
+    /* This div controls the hover capabilities of the navigation bar and what the
+     animation is when the mouse hovers on the box. */
+    .topnav a:hover {
+      background-color: #A3E4D7;
+      color: black;
+    }
