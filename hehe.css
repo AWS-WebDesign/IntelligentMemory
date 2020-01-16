@@ -6,16 +6,53 @@ div {
   padding: 30px;
   background-color: #9486E0;
   position: relative;
-
+  transition: background-color: yellow;
   animation-name: welcometotheclub;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+div:hover{
+  background-color: yellow;
 }
 
 @keyframes welcometotheclub {
-  0% {background-color: #0A0429 left: 0px; top: 0px;}
-  25% {background-color: #7A739B left: 150px; top: 400px;}
-  50% {background-color: #AF48C0 left: 300px; top: 300px}
-  75% {background-color: #530261 left: 150px; top: 340px;}
-  100% {background-color: #0A0429 left: 0px; top: 0px;}
+  0% {background-color: #0A0429; left: 0px; top: 0px;}
+  25% {background-color: #8F339E; left: 150px; top: 400px;}
+  50% {background-color: #19041D; left: 300px; top: 300px}
+  75% {background-color: #17DE62; left: 150px; top: 340px;}
+  100% {background-color: #EF9104; left: 0px; top: 0px;}
 }
+
+div {
+  height: 200px;
+  width: 400px;
+  display: block;
+  margin: 70px;
+  padding: 30px;
+  position: relative;
+  animation-name: dvd;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes dvd {
+  0% {left: 0px; top: 0px;}
+  25% {left: 100px; top: 200px;}
+  50% {left: 800px; top: 500px}
+  75% {left: 159px; top: 345px;}
+  100% {left: 0px; top: 0px;}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  }
+
+li a {
+  display: block;
+  }
