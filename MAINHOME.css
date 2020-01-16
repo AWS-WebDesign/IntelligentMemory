@@ -1,0 +1,130 @@
+body {
+/* style for whole site*/
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+  background-color: #A09BA4;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+}
+
+
+.welcome {
+  background-color: #F9F486;
+  padding: 50px;
+  text-shadow: 2px 2px #195CAD;
+   box-shadow: 10px 10px 5px grey;
+}
+
+.explain {
+background-color: #FEC28E;
+padding: 20px;
+ box-shadow: 10px 10px 5px grey;
+}
+
+.topnav a {
+  float: center;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #FEDB61;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.topnav a:hover {
+background-color: #69515B;
+color: white;
+}
+
+.textbruh {
+  float: right;
+  width: 50%;
+
+}
+
+.oil {
+  float: left;
+  width: 50%;
+
+}
+
+.rat {
+  float: left;
+  width: 50%;
+
+}
+
+.christmas {
+  float: right;
+  width: 50%;
+
+}
+
+.tree {
+  float: left;
+  width: 50%;
+}
+
+.fall {
+  float: right;
+  width: 50%;
+}
+
+.extwo {
+  float: left;
+  width: 48%;
+}
+
+.dream {
+  float: right;
+  width: 48%;
+}
+
+.dvd {
+  float: left;
+  width: 50%;
+}
+
+.green {
+  float: right;
+  width: 50%;
+}
+
+.snow {
+  float: left;
+  width: 48%;
+}
+
+.sample {
+  float: right;
+  width: 48%;
+}
+
+/*  */
+@keyframes animationbb {
+  from {background-color: #E7A285;}
+  to {background-color: #B4D1F0;}
+}
+
+/*  */
+.animationbb {
+  width: 1000px;
+  height: 100px;
+  background-color: #E7A285;
+  animation-name: animationbb;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  box-shadow: 10px 10px 5px grey;
+  text-shadow: 2px 2px #422E36;
+
+}
