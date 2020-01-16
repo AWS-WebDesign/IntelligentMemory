@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snowman</title>
+  </head>
+  <body>
+    <div class="">
+      <a href="///Users/cora_shandrow/Desktop/WED%20DESIGN/IntelligentMemory/MAINHOME.html">Main Home</a>
+    </div>
+    <div class="">
+      <canvas id="myCanvas" width="500" height="800" style="border:1px solid #000000;">
+      </canvas>
+      </div>
+<script >
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.moveTo(500, 700);
+  ctx.lineTo(0, 700);
+  ctx.stroke();
+
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.beginPath(400, 600);
+  ctx.arc(250, 600, 100, 0, 2 * Math.PI);
+  ctx.stroke();
+
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.beginPath(400, 600);
+  ctx.arc(250, 425, 75, 0, 2 * Math.PI);
+  ctx.stroke();
+
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.beginPath(400, 600);
+  ctx.arc(250, 300, 50, 0, 2 * Math.PI);
+  ctx.stroke();
+
+</script>
+
+
+  </body>
+</html>
