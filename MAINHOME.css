@@ -11,20 +11,20 @@ body {
   text-transform: capitalize;
 }
 
-
+/* Style for header1 */
 .welcome {
   background-color: #F9F486;
   padding: 50px;
   text-shadow: 2px 2px #195CAD;
-   box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px grey;
 }
-
+/* style for header 3 */
 .explain {
-background-color: #FEC28E;
-padding: 20px;
- box-shadow: 10px 10px 5px grey;
+  background-color: #FEC28E;
+  padding: 20px;
+  box-shadow: 10px 10px 5px grey;
 }
-
+/* style for the homebutton */
 .topnav a {
   float: center;
   display: block;
@@ -35,12 +35,13 @@ padding: 20px;
   background-color: #FEDB61;
   box-shadow: 10px 10px 5px grey;
 }
-
+/* when hover homebutton changes colors */
 .topnav a:hover {
-background-color: #69515B;
-color: white;
+  background-color: #69515B;
+  color: white;
 }
 
+/* All Styles for the images to align the correct way */
 .textbruh {
   float: right;
   width: 50%;
@@ -105,15 +106,15 @@ color: white;
   width: 48%;
 }
 
-/*  */
+/* thankyou animation */
 @keyframes animationbb {
   from {background-color: #E7A285;}
   to {background-color: #B4D1F0;}
 }
 
-/*  */
+/* thankyou animation */
 .animationbb {
-  width: 1000px;
+  width: 900px;
   height: 100px;
   background-color: #E7A285;
   animation-name: animationbb;
@@ -127,4 +128,35 @@ color: white;
   box-shadow: 10px 10px 5px grey;
   text-shadow: 2px 2px #422E36;
 
+}
+
+/* animation making bob(tiny drawing) move at bottom */
+@keyframes bob {
+  0% {left:500px; top:0px;}
+  25% {left:300px; top: 0px;}
+  50% {left:100px; top:0px;}
+  75%{left: 300px; top: 0px;}
+  100% {left:500px; top:0px;}
+}
+
+/* animation for bob */
+.bob {
+  animation-name: bob;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: relative;
+  width: 150px;
+  height: 120px;
+  margin: 10px;
+  padding: 50px;
+
+}
+
+/* style for jail and canada ticket to float to apposite sides of page */
+.jail {
+  float: right;
+}
+
+.CA {
+  float: left;
 }
